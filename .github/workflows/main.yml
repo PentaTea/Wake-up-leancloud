@@ -3,7 +3,7 @@ name: CI
 on:
   push:
   schedule:
-    - cron: '20 14 * * *' 
+    - cron: '0 0 * * *' 
 
 jobs:
   deploy:
